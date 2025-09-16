@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài Tập HTML Table</title>
+    <style>
+        table {width: 100%;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            text-align: center;}
+
+        th, td {border: 1px solid black;
+            padding: 8px;}
+
+        th {background-color: #f2f2f2;}
+
+        .left-align {text-align: left;}
+    </style>
+</head>
+<body>
+
+    <h2>BÀI TẬP 03:</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Sinh viên</th>
+                <th colspan="4">Điểm số kì 1</th>
+                <th colspan="4">Điểm số kì 2</th>
+                <th colspan="2" rowspan="2">Xếp Loại</th>
+            </tr>
+            <tr>
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>Tổng
+                <th>1</th>
+                <th>2</th>
+                <th>3</th>
+                <th>Tổng</th>
+            </tr>
+            <tr>
+                <th>Mã sinh viên</th>
+                <th class="left-align">Họ và Tên</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1971020026
+                <td class="left-align">Nguyễn Hoàng Anh
+                <td>10</td>
+                <td>10</td>
+                <td>20</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>30</td>
+                <td>Giỏi</td>
+               
+            </tr>
+            <tr>
+                <td>1971020364</td>
+                <td class="left-align">Nguyễn Duy Phong</td>
+                <td>10</td>
+                <td>10</td>
+                <td>20</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>30</td>
+                <td>Giỏi</td>
+               
+            </tr>
+            <tr>
+                <td>1971020051</td>
+                <td class="left-align">Nguyễn Văn Quốc Bảo</td>
+                <td>10</td>
+                <td>10</td>
+                <td>20</td>
+                <td>10</td>
+                <td>10</td>
+                <td>10</td>
+                <td>30</td>
+                <td>Giỏi</td>
+             
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
+
